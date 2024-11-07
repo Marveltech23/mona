@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monlasiwebsite</title>
+</head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<link rel="stylesheet" href="styl.css" />
+
+<body>
+<!-- 
+    <nav class="navbar">
+        <div class="logo">
+          <img src="images/logo.png" alt="Logo" />
+        </div>
+        <div class="menu-icon" onclick="toggleMenu()">&#9776;</div> 
+        
+       
+      
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#Portfolio">Portfolio</a></li>
+          <li><a href="#About me">About me</a></li>
+          <li><a href="#Testimonials">Testimonials</a></li>
+        </ul>
+      </nav> -->
+
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Monalisa</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+   <!-- heroo -->
+
+      <div class="hero">
+        <div class="hero-text">
+          <h1>Hello, I'm 
+            Monalisa</h1>
+          <div id="typewriter" class="typewriter-text"></div>
+
+
+          <p></p>
+          <a href="https://guttural-polish-6f9.notion.site/Monalisa-Agbata-Portfolio-10cee32d2bc347e2b646132403e66687" class="btn">My Work</a>
+          <a href="#" class="btn">Get In Touch</a>
+        </div>
+        <div class="hero-image">
+          <img src="images/heroimg.jpg" alt="Monalisa">
+        </div>
+      </div>
+  
+
+<!--monalisa  -->
+<!-- <div class="carousel">
+  <div class="slides">
+      <div class="slide">
+          <img src="images/monalisa2.jpg" alt="Image 1">
+          <div class="text-overlay">
+              Monalisa<br> A multifaceted Global Marketing Leader, Creator, Startup Advisor, Consultant, & Public Speaker. Over the past 7 years, she has built and scaled go-to-market strategies at disruptive SaaS, Web3, blockchain, crypto, e-commerce, and Fintech companies, consistently delivering innovative solutions to scale brands in competitive markets.
+          </div>
+      </div>
+      <div class="slide">
+          <img src="images/monalisa1.jpg" alt="Image 2">
+          <div class="text-overlay">
+              Monalisa<br> A multifaceted Global Marketing Leader, Creator, Startup Advisor, Consultant, & Public Speaker. Over the past 7 years, she has built and scaled go-to-market strategies at disruptive SaaS, Web3, blockchain, crypto, e-commerce, and Fintech companies, consistently delivering innovative solutions to scale brands in competitive markets.
+          </div>
+      </div>
+      <div class="slide">
+          <img src="images/monalisa3.jpg" alt="Image 3">
+          <div class="text-overlay">
+              Monalisa<br> A multifaceted Global Marketing Leader, Creator, Startup Advisor, Consultant, & Public Speaker. Over the past 7 years, she has built and scaled go-to-market strategies at disruptive SaaS, Web3, blockchain, crypto, e-commerce, and Fintech companies, consistently delivering innovative solutions to scale brands in competitive markets.
+          </div>
+      </div>
+  </div>
+</div> -->
+<!-- slider -->
+<div id="typewriter" class="typewriter-text"></div>
+<div class=""></div>
+
+<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/monalisa1.jpg" class="d-block w-100" alt="...">
+      <div class="text-overlay">
+        Monalisa<br> A multifaceted Global Marketing Leader, Creator, Startup Advisor, Consultant, & Public Speaker. Over the past 7 years, she has built and scaled go-to-market strategies at disruptive SaaS, Web3, blockchain, crypto, e-commerce, and Fintech companies, consistently delivering innovative solutions to scale brands in competitive markets.
+    </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/monalisa2.jpg" class="d-block w-100" alt="...">
+      <div class="text-overlay">
+        Monalisa<br> A multifaceted Global Marketing Leader, Creator, Startup Advisor, Consultant, & Public Speaker. Over the past 7 years, she has built and scaled go-to-market strategies at disruptive SaaS, Web3, blockchain, crypto, e-commerce, and Fintech companies, consistently delivering innovative solutions to scale brands in competitive markets.
+    </div>
+    </div>
+
+
+    <div class="carousel-item">
+      <img src="images/monalisa3.jpg" class="d-block w-100" alt="...">
+      <div class="text-overlay">
+        Monalisa<br> A multifaceted Global Marketing Leader, Creator, Startup Advisor, Consultant, & Public Speaker. Over the past 7 years, she has built and scaled go-to-market strategies at disruptive SaaS, Web3, blockchain, crypto, e-commerce, and Fintech companies, consistently delivering innovative solutions to scale brands in competitive markets.
+    </div>
+    
+
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+<!-- slider icon  -->
+<div class="marquee">
+  <div class="marquee-content">
+    <img src="images/logo1.png" alt="Image 1">
+    <img src="images/logo2.png" alt="Image 2">
+    <img src="images/logo3.png" alt="Image 3">
+    <img src="images/logo4.png" alt="Image 4">
+    <img src="images/logo5.png" alt="Image 5">
+    <img src="images/logo1.png" alt="Image 1">
+    <img src="images/logo2.png" alt="Image 2">
+    <img src="images/logo3.png" alt="Image 3">
+    <img src="images/logo4.png" alt="Image 4">
+    <img src="images/logo5.png" alt="Image 5">
+  </div>
+</div>
+
+    <!-- <h1>Watch Videos   Connect with Me</h1> -->
+    <div class="video-section"> <div class="links"> <a href="#watch-videos">Watch Videos</a> <a href="#connect">Connect with Me</a> </div> <div class="media-frame"> <iframe src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe> </div> </div>
+<!-- about me  -->
+
+     
+      <section class="container"> <div class="image"> <img src="images/aboutimg.jpg" alt="Profile Image" style="width: 100%;"> </div> <div class="content"> <h1>About Me</h1>            <p><em>Monalisa's mission is to empower companies and individuals alike to innovate, grow, and lead in the rapidly changing world of technology. As a marketing expert and advisor, she has worked with global teams, delivered high-impact solutions, and cultivated thriving ecosystems around disruptive technologies.</em></p>
+ <p><p>Monalisa Agbata is a Global Marketing Executive (EMEA), creator, public speaker, and go-to-market strategist with extensive experience in early and growth-stage tech startups. She co-founded <a href="#">One Dev</a> (formerly Memoi Africa), where she has built a thriving community of over 5,000 African developers, creating over 1,000 jobs and opportunities in emerging technologies like blockchain, Web3, and AI. Under her leadership, <a href="#">One Dev</a> has attracted grants from major organizations such as the <a href="#">Ethereum Support Program</a>, <a href="#">Lisk</a>, and <a href="#">CELO</a>.</p> <p>Monalisa has held pivotal roles including <a href="#">Product Marketing Manager at Kvants AI</a>, <a href="#">Regional Marketing Manager at COINW</a>, and <a href="#">Director of Product Marketing at Zenith Chain</a>, where she drove market penetration across Africa, LATAM, and APAC regions. With over eight years of experience in marketing, growth & business development, she has consistently positioned startups for rapid growth.</p> <p>Monalisa holds a bachelor’s degree in Communication and an MBA from the <a href="#">Quantic School of Business and Technology</a>, USA. Her value-driven approach, paired with her expertise in emerging technologies and marketing strategy, positions her as an invaluable asset to any organization she supports.</p> </div> </section>
+
+      <div class="countdown-container">
+        <div class="text-container">
+          <div class="line"></div>
+        </div>
+        <div class="countdown">
+          <div class="time-box">
+            <span class="number" id="days">10+</span>
+            <span class="label">Successful Product Launches</span>
+          </div>
+          <div class="time-box">
+            <span class="number" id="hours">7+</span>
+            <span class="label">Years In Web3 & Tech Marketing</span>
+          </div>
+          <div class="time-box">
+            <span class="number" id="minutes">300k+</span>
+            <span class="label">Social Media Community Built For Brands</span>
+          </div>
+          <div class="time-box">
+            <span class="number" id="seconds">50k+</span>
+            <span class="label"> Personal Brand</span>
+          </div>
+        </div>
+      </div>
+
+
+
+<!-- my port folio -->
+      <section class="portfolio">
+        <h2>My Portfolio</h2>
+        <div class="portfolio-container">
+          <div class="portfolio-item">        
+            <img src="images/globalspeaker.jpg" alt="Memoi Developer Ecosystem">
+            <div class="portfolio-content">
+              <h3>Memoi Developer Ecosystem-CMO</h3>
+              <p>Case Transforming Memoi Africa's Brand + business and marketing framework</p>
+              <a href="https://guttural-polish-6f9.notion.site/Monalisa-Agbata-Portfolio-10cee32d2bc347e2b646132403e66687" target="_blank" class="view-link">View in Notion ↗</a>
+            </div>
+          </div>
+          <div class="portfolio-item">
+            <img src="images/image2.png" alt="Zenith Chain">
+            <div class="portfolio-content">
+              <h3>Zenith Chain Ecosystem Building</h3>
+              <p>Marketing Operation, Team & GTM from scratch<br>Director of Marketing Operations at UAB ZENITH CHAIN</p>
+              <a href="https://guttural-polish-6f9.notion.site/Monalisa-Agbata-Portfolio-10cee32d2bc347e2b646132403e66687" target="_blank" class="view-link">View in Notion ↗</a>
+            </div>
+          </div>
+          <div class="portfolio-item">
+            <img src="images/image3.png" alt="CoinW Marketing">
+            <div class="portfolio-content">
+              <h3>CoinW-Africa Regional Marketing Manager</h3>
+              <p>CoinW is one of the world’s topmost crypto exchanges founded in Asia</p>
+              <a href="https://guttural-polish-6f9.notion.site/Monalisa-Agbata-Portfolio-10cee32d2bc347e2b646132403e66687" target="_blank" class="view-link">View in Notion ↗</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <h1>How We Can Work Together</h1>
+<div class="container">
+  <div class="box">
+    <h2>Full-time Marketing Manager, or Fractional CMO</h2>
+    <p>Monalisa offers both full-time and fractional CMO, Marketing Manager services tailored to the needs of startups and established businesses. Whether leading marketing teams or advising on strategy.</p>
+  </div>
+  <div class="box">
+    <h2>Startup Go-to-Market Consultancy</h2>
+    <p>Specializing in go-to-market strategies, Monalisa works with businesses to launch products effectively in emerging and established markets. She helps companies craft compelling narratives, identify target audiences, and implement strategies that drive customer acquisition and brand recognition.</p>
+  </div>
+  <div class="box">
+    <h2>Startup Advisory</h2>
+    <p>Leveraging her extensive experience with early-stage ventures, Monalisa advises startups on growth strategies, market penetration, and fundraising. She helps founders refine their business models, build scalable operations, and position their companies for success in competitive markets.</p>
+  </div>
+  <div class="box">
+    <h2>Web3 Marketing Training</h2>
+    <p>Monalisa provides tailored marketing training programs designed to upskill teams and individuals in areas like digital marketing, product positioning, and brand strategy. Her workshops equip participants with the tools they need to execute successful campaigns and navigate the evolving marketing landscape.</p>
+  </div>
+</div>
+
+
+<Div class="blackclass">
+<a href="https://guttural-polish-6f9.notion.site/Monalisa-Agbata-Portfolio-10cee32d2bc347e2b646132403e66687"> <h1 >Career Highlight
+</h1>
+</a>  
+
+</Div>
+
+
+
+<!-- testmoniels  -->
+<h1>Customer Testimonials</h1>
+<div class="container">
+  <div class="testimonial-box">
+    <div class="stars">★★★★★</div>
+    <p class="testimonial-text">Monalisa is a trailblazer, leveraging her unique insights to create long-lasting growth, not just for companies but for the communities around them. Her leadership has helped shape industry standards in Web3, blockchain, and AI. Whether you’re a startup seeking to launch a new product or an organization looking to expand into new markets, Monalisa is the expert you need to make it happen.</p>
+    <div class="profile">
+      <img src="https://via.placeholder.com/40" alt="Thierry Vodonou">
+      <div class="profile-info">
+        <div class="name">Thierry Vodonou</div>
+        <div class="title">Ment, Stanford Seed</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="testimonial-box">
+    <div class="stars">★★★★★</div>
+    <p class="testimonial-text">Monalisa is an exceptional Marketing Lead Director at Zenith Chain. Her profound understanding of market dynamics and strategic prowess greatly amplified our project outcomes. With an innate ability to inspire her team and problem-solve with agility, she is truly a leader to watch. Monalisa, your valuable contributions will always be remembered, and I look forward to seeing your continued success.</p>
+    <div class="profile">
+      <img src="https://via.placeholder.com/40" alt="Linda Obi">
+      <div class="profile-info">
+        <div class="name">Linda Obi</div>
+        <div class="title">CEO, Afri Health</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="testimonial-box">
+    <div class="stars">★★★★★</div>
+    <p class="testimonial-text">It's been a pleasure working with her on the team. Monalisa is an exceptional marketing professional whose innovative approach and strategic mindset have been invaluable to Kvants AI. Her ability to drive results from every single project, while fostering collaboration within the team sets her apart.</p>
+    <div class="profile">
+      <img src="https://via.placeholder.com/40" alt="Devashish Buhyan">
+      <div class="profile-info">
+        <div class="name">Devashish Buhyan</div>
+        <div class="title">CMO, Kvants AI</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section class="profile-section"> <div class="profile-image"> <img src="images/DSC_0046[1].JPG" alt="Monalisa"> </div> <div class="profile-details"> <h1>Global Speaker</h1> <div class="event"> <h2>IfinExpo</h2> <p>Monalisa spoke at IfinExpo 2023, the top international innovative financial expo, covering DeFi, crypto, foreign exchange, payment and financial technology.</p> </div> <div class="event"> <h2>Lagos Blockchain Week</h2> <p>An influential gathering focused on blockchain technology and its applications.</p> <a href="https://lagosblockchainweek.io/">Explore the event</a> </div> <div class="event"> <h2>Digiclan</h2> <p>Engaging with industry leaders to discuss the future of digital marketing and innovation.</p> <a href="https://www.digiclan.africa/">Explore the event</a> </div> <div class="event"> <h2>NITDA Co-create</h2> <p>Collaborating with innovators and stakeholders to foster creativity and development in Africa.</p> <a href="https://co-createafrica.com/wp-content/uploads/2024/03/Co-Create-2024-Brochure_eVersion.pdf">View the brochure</a> </div> <div class="event"> <h2>Futurist Expo</h2> <p>Addressing the latest trends and technologies shaping the future of industries.</p> <a href="http://futuristexpo.eu">Visit Futurist Expo</a> </div> </div> </section>
+
+
+
+
+<!-- vidoe  -->
+<div class="video-section"> <div class="video-container"> <div class="video"> <iframe src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe> </div> <div class="video"> <iframe src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe> </div> <div class="video"> <iframe src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe> </div> </div> <button class="visit-channel">Visit Channel</button> </div>
+
+<!-- contanct -->
+
+
+<section class="contact-section">
+  <div class="container">
+    <div class="message-form">
+
+      <h2>Message Me</h2>
+      <form>
+        <div class="input-group">
+          <input type="text" placeholder="Name" required>
+          <input type="email" placeholder="Email" required>
+        </div>
+        <input type="text" placeholder="Subject" required>
+        <textarea placeholder="Message" required></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    <div class="contact-info">
+      <h3>Contact Info</h3>
+      <p>Always available for the right project. Feel free to contact me!</p>
+      <ul>
+        <li><strong>Name:</strong> Monalisa</li>
+        <li><strong>Call Me:</strong> <a href="tel:+2347038089568">+234 813 444 9589</a></li>
+        <li><strong>Email Me:</strong> <a href="mailto:Marvity23@gmail.com">Marvity23@gmail.com</a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+<!-- footer  -->
+<footer class="footer">
+  <div class="top-banner">
+      <p>GET FREE RESOURCES STRAIGHT TO YOUR INBOX</p>
+      <button class="subscribe-btn">SUBSCRIBE</button>
+  </div>
+  <div class="container">
+      <div class="column">
+          <h3>About</h3>
+          <ul>
+              <li>About Me</li>
+              <li>Careers</li>
+              <li>Support</li>
+              <li>Resources</li>
+          </ul>
+      </div>
+      <div class="column">
+          <h3>Features</h3>
+          <ul>
+              <li>Courses</li>
+              <li>Brand Kit</li>
+              <li>Previous Events</li>
+              <li>Blog</li>
+          </ul>
+      </div>
+      <div class="column">
+          <h3>Contact</h3>
+          <ul>
+              <li>info@teamapp.com</li>
+              <li>1-800-200-300</li>
+              <li>1010 Sunset Blvd., Palo Alto, California</li>
+          </ul>
+      </div>
+      <div class="column newsletter">
+          <h3>Stay up to date</h3>
+          <input type="email" placeholder="Enter your email">
+          <button>Subscribe</button>
+      </div>
+  </div>
+</footer>
+
+<!-- <script src="script.js">
+  
+</script> -->
+
+<!-- Bootstrap JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+<!-- Custom JavaScript for Typewriter Effect -->
+<script>
+ // Constant text that stays the same
+ const constantText = "I’m a ";
+
+// Array of roles/titles to display one after the other
+const titles = ["Global Marketing Leader", "Creator", "Startup Advisor", "Consultant", "Public Speaker"];
+
+const typewriterElement = document.getElementById("typewriter");
+let titleIndex = 0; // Keeps track of the current title in the array
+let charIndex = 0; // Keeps track of the character in the current title
+
+function typeWriter() {
+    if (charIndex < titles[titleIndex].length) {
+        typewriterElement.innerHTML = constantText + titles[titleIndex].substring(0, charIndex + 1);
+        charIndex++;
+        setTimeout(typeWriter, 100); // Adjust typing speed here (milliseconds)
+    } else {
+        // Pause after completing a title
+        setTimeout(() => {
+            // Clear the text for the next title
+            charIndex = 0;
+            titleIndex = (titleIndex + 1) % titles.length; // Move to the next title, loop back to the start
+            typeWriter(); // Restart typing for the new title
+        }, 1000); // Delay before moving to the next title (1 second)
+    }
+}
+
+// Start the typewriter effect
+typeWriter();
+</script>
+
+
+
+</body>
+</html>
